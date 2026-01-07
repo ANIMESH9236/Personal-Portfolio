@@ -56,19 +56,6 @@ const Projects = () => {
         viewport={{ once: true, amount: 0.2 }}
       >
         <motion.h2 className="section-title" variants={itemVariants}>
-          <motion.span 
-            className="section-number"
-            animate={{
-              color: ['#64ffda', '#ffffff', '#64ffda']
-            }}
-            transition={{
-              duration: 3,
-              repeat: Infinity,
-              ease: "easeInOut"
-            }}
-          >
-            03.
-          </motion.span>
           <motion.span
             whileHover={{
               scale: 1.05,

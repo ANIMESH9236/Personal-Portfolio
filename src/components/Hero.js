@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { motion, useAnimation } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 const Hero = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-  const controls = useAnimation();
 
   useEffect(() => {
     const handleMouseMove = (e) => {
@@ -115,9 +114,6 @@ const Hero = () => {
           initial="hidden"
           animate="visible"
           transition={{ delay: 0.6 }}
-          animate={{
-            backgroundPosition: ['0% 50%', '100% 50%', '0% 50%']
-          }}
           style={{
             background: 'linear-gradient(45deg, #94a3b8, #64ffda, #94a3b8)',
             backgroundSize: '200% 200%',

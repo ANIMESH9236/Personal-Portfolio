@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
 
 const Navigation = ({ activeSection }) => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -29,34 +28,22 @@ const Navigation = ({ activeSection }) => {
   ];
 
   return (
-    <motion.nav
-      className={`navbar ${isScrolled ? 'scrolled' : 'transparent'}`}
-      initial={{ y: -100 }}
-      animate={{ y: 0 }}
-      transition={{ duration: 0.5 }}
-    >
+    <nav className={`navbar ${isScrolled ? 'scrolled' : 'transparent'}`}>
       <div className="nav-container">
-        <motion.a
+        <a
           href="#home"
           className="nav-logo"
           onClick={(e) => {
             e.preventDefault();
             scrollToSection('home');
           }}
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
         >
           Animesh Kumar Rai
-        </motion.a>
+        </a>
 
         <ul className="nav-links">
-          {navItems.map((item, index) => (
-            <motion.li
-              key={item.id}
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.1 }}
-            >
+          {navItems.map((item) => (
+            <li key={item.id}>
               <a
                 href={`#${item.id}`}
                 className={`nav-link ${activeSection === item.id ? 'active' : ''}`}
@@ -67,13 +54,9 @@ const Navigation = ({ activeSection }) => {
               >
                 {item.label}
               </a>
-            </motion.li>
+            </li>
           ))}
-          <motion.li
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: navItems.length * 0.1 }}
-          >
+          <li>
             <a
               href="/resume.pdf"
               className="resume-btn"
@@ -82,7 +65,7 @@ const Navigation = ({ activeSection }) => {
             >
               Resume
             </a>
-          </motion.li>
+          </li>
         </ul>
 
         <div className="mobile-menu">
@@ -91,7 +74,7 @@ const Navigation = ({ activeSection }) => {
           <div className="mobile-menu-line"></div>
         </div>
       </div>
-    </motion.nav>
+    </nav>
   );
 };
 

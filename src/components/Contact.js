@@ -130,19 +130,6 @@ const Contact = () => {
         initial="hidden"
       >
         <motion.h2 className="section-title" variants={itemVariants}>
-          <motion.span 
-            className="section-number"
-            animate={{
-              color: ['#64ffda', '#ffffff', '#64ffda']
-            }}
-            transition={{
-              duration: 3,
-              repeat: Infinity,
-              ease: "easeInOut"
-            }}
-          >
-            04.
-          </motion.span>
           <motion.span
             whileHover={{
               scale: 1.05,
