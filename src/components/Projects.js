@@ -21,30 +21,30 @@ const Projects = () => {
     {
       title: 'Cinemora',
       label: 'Featured Project',
-      description: 'A comprehensive movie discovery platform built with modern web technologies. Features include movie search, detailed information, ratings, reviews, and personalized recommendations. The application provides an intuitive user experience with responsive design and smooth animations.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Express.js', 'API Integration', 'Responsive Design'],
+      description: 'A comprehensive web series discovery platform built with modern web technologies. Features include movie search, detailed information, ratings, reviews, and sorting. The application provides an intuitive user experience with responsive design and smooth animations.',
+      technologies: ['React', 'Node.js', 'MySQL', 'Express.js', 'API Integration', 'Responsive Design'],
       liveLink: 'https://cinemora-dusky.vercel.app/',
       githubLink: 'https://github.com/ANIMESH9236/CINEMORA.git',
       icon: '🎬'
     },
     {
-      title: 'Portfolio Website',
-      label: 'Personal Project',
-      description: 'A modern, responsive portfolio website showcasing my skills, projects, and experience. Built with React and Framer Motion for smooth animations and interactions. Features include dark theme, smooth scrolling, and mobile-responsive design.',
-      technologies: ['React', 'Framer Motion', 'CSS3', 'JavaScript', 'Responsive Design'],
+      title: 'EMI Sense',
+      label: 'Personal Finance Project',
+      description: 'A smart personal finance web application that helps users assess EMI affordability and financial stress using income, expenses, and existing obligations. The system calculates key financial metrics such as EMI Stress Level, EMI Dependency, and savings health, and leverages AI-generated insights to explain results in simple, actionable terms. Designed to improve financial awareness and decision-making.',
+      technologies: ['React', 'Node.js', 'Express.js', 'PostgreSQL', 'Prisma', 'JavaScript', 'AI Insights'],
       liveLink: '#',
-      githubLink: 'https://github.com/ANIMESH9236/Personal-Portfolio.git',
-      icon: '💼'
+      githubLink: 'https://github.com/ANIMESH9236/EMI_SENSE.git',
+      icon: '💰'
     },
-    {
-      title: 'E-Commerce Platform',
-      label: 'Full Stack Project',
-      description: 'A complete e-commerce solution with user authentication, product catalog, shopping cart, and payment integration. Features admin panel for inventory management and order tracking.',
-      technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe API', 'JWT', 'Redux'],
-      liveLink: '#',
-      githubLink: '#',
-      icon: '🛒'
-    }
+    // {
+    //   title: 'E-Commerce Platform',
+    //   label: 'Full Stack Project',
+    //   description: 'A complete e-commerce solution with user authentication, product catalog, shopping cart, and payment integration. Features admin panel for inventory management and order tracking.',
+    //   technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe API', 'JWT', 'Redux'],
+    //   liveLink: '#',
+    //   githubLink: '#',
+    //   icon: '🛒'
+    // }
   ];
 
   return (

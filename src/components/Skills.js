@@ -99,17 +99,17 @@ const Skills = () => {
       color: '#F05032'
     },
     {
-      name: 'AWS',
-      category: 'Cloud',
-      icon: '☁️',
+      name: 'MySQL',
+      category: 'Database',
+      icon: '🐬',
       color: '#FF9900'
     },
-    {
-      name: 'Docker',
-      category: 'DevOps',
-      icon: '🐳',
-      color: '#2496ED'
-    }
+    // {
+    //   name: 'Docker',
+    //   category: 'DevOps',
+    //   icon: '🐳',
+    //   color: '#2496ED'
+    // }
   ];
 
   return (

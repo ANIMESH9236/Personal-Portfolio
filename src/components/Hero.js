@@ -210,7 +210,7 @@ const Hero = () => {
             </motion.a>
 
             <motion.a
-              href="mailto:animeshkumarrai9236@gmail.com"
+              href="mailto:animeshrai197@gmail.com"
               className="social-link"
               variants={{
                 hidden: { opacity: 0, scale: 0, rotate: -180 },

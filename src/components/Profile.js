@@ -56,9 +56,9 @@ const Profile = () => {
   };
 
   const stats = [
-    { value: '2+', label: 'Years Experience', icon: '⏱️' },
-    { value: '10+', label: 'Projects Completed', icon: '🚀' },
-    { value: '5+', label: 'Technologies', icon: '💻' }
+    // { value: '2+', label: 'Years Experience', icon: '⏱️' },
+    // { value: '10+', label: 'Projects Completed', icon: '🚀' },
+    // { value: '5+', label: 'Technologies', icon: '💻' }
   ];
 
   return (
@@ -232,9 +232,7 @@ const Profile = () => {
               transition: { duration: 0.3 }
             }}
           >
-            I'm a passionate developer with expertise in modern web technologies. 
-            I love creating efficient, scalable solutions and turning complex problems 
-            into simple, beautiful designs.
+            I’m a Full Stack Developer with a strong foundation in data structures and algorithms, focused on building scalable, high-performance web applications using modern technologies. I enjoy solving complex problems and turning them into clean, efficient, and user-centric solutions.
           </motion.p>
           
           <motion.p 
@@ -245,8 +243,7 @@ const Profile = () => {
               transition: { duration: 0.3 }
             }}
           >
-            When I'm not coding, you'll find me exploring new technologies, 
-            contributing to open source projects, or sharing knowledge with the developer community.
+            When I’m not coding, I’m solving algorithmic problems, experimenting with new technologies, and building impactful projects that push my technical limits.
           </motion.p>
 
           <motion.div 

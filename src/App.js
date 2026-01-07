@@ -50,7 +50,7 @@ function App() {
 
       <footer className="footer">
         <p className="footer-text">Built with React & Framer Motion</p>
-        <p className="footer-copyright">© 2024 Animesh Kumar Rai. All rights reserved.</p>
+        <p className="footer-copyright">© 2025 Animesh Kumar Rai. All rights reserved.</p>
       </footer>
     </div>
   );

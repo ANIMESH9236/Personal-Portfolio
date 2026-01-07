@@ -83,8 +83,8 @@ const Contact = () => {
   const contactLinks = [
     {
       label: 'Email',
-      value: 'animeshkumarrai9236@gmail.com',
-      href: 'mailto:animeshkumarrai9236@gmail.com',
+      value: 'animeshrai197@gmail.com',
+      href: 'mailto:animeshrai197@gmail.com',
       icon: '📧',
       color: '#EA4335'
     },
